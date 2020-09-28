@@ -18,6 +18,6 @@ x = input("Enter a number: ")
 x = int(x)
 
 if (x % 2) == 0:
-    print("The number is even")
+    print("the number is even")
 else:
-    print("The number is odd")
+    print("the number is odd")
