@@ -10,3 +10,11 @@
 # Outputs:
 # "the number is an integer"
 # "the number is not an integer"
+
+x = input("Enter a number: ")
+y = "."
+
+if y in x:
+    print("the number is not an integer")
+else:
+    print("the number is an integer")
