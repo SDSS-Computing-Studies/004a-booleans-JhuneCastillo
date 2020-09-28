@@ -15,3 +15,21 @@
 # Outputs:
 # - "the equation can be factored"
 # - "the equation can not be factored"
+
+import math
+
+x = int(input("Enter Value for a: "))
+y = int(input("Enter Value for b: "))
+z = int(input("Enter Value for c: "))
+
+a = y**2 - 4*x*z
+
+if math.sqrt(a) % 1 == 0:
+    print("the equation can be factored")
+else:
+    print("the equation can not be factored")
+
+
+
+
+
