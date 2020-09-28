@@ -17,3 +17,27 @@
 # "2" : The number is 100 or a number up to 1000 
 # "1" : The number is 10 or a number up to 100 
 # "0" : The number is 0 or a number up to 100 
+
+x = input("Enter a number: ")
+x = int(x)
+a = 1000
+b = 100 
+c = 10
+d = 0
+
+if (x > a):
+    print("3")
+elif (x == a):
+    print("3")
+elif (x > b):
+    print("2")
+elif (x == b):
+    print ("2")
+elif (x > c):
+    print("1")
+elif (x == c):
+    print("1")
+elif (x > d):
+    print("0")
+elif (x == d):
+    print("0")
