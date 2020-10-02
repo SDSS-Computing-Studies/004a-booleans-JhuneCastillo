@@ -12,7 +12,7 @@
 # - "zero"
 
 x = input("Enter a number: ")
-x = int(x)
+x = float(x)
 x2 = 0
 
 if (x == x2):
