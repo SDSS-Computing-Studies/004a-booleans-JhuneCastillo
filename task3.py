@@ -25,19 +25,22 @@ b = 100
 c = 10
 d = 0
 
-if (x > a):
+if x > a:
     print("3")
-elif (x == a):
+elif x == a:
     print("3")
-elif (x > b):
+
+elif x > b:
     print("2")
-elif (x == b):
-    print ("2")
-elif (x > c):
+elif x == b:
+    print("2")
+
+elif x > c:
     print("1")
-elif (x == c):
+elif x == c:
     print("1")
-elif (x > d):
+
+elif x > d:
     print("0")
-elif (x == d):
+elif x == d:
     print("0")
