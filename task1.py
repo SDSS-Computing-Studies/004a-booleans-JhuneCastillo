@@ -17,10 +17,10 @@ x2 = 100
 x = int(x)
 
 if (x < x2):
-    print("The Number is smaller than 100")
+    print("The number is smaller than 100")
 
 if (x > x2):
-    print("The Number is larger than 100")
+    print("The number is larger than 100")
  
 if (x == x2):
-    print("The Number is 100")
+    print("The number is 100")
